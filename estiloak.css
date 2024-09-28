@@ -18,3 +18,13 @@
     flex: 0.75;
     background-color: lightblue;
 } 
+
+.full-width {
+    width: 85%; /* Asegura que el input ocupe todo el ancho disponible dentro del contenedor */
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+}
+
+/* Aplica el box-sizing globalmente para asegurar que todos los inputs lo utilicen */
+input {
+    box-sizing: border-box;
+}
