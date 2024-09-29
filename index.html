@@ -9,6 +9,8 @@
 
 	  <div class="flex left">
 	    Flex Column 1
+		<img id="book-cover" src="https://covers.openlibrary.org/b/id/8508261-M.jpg" alt="Book Cover">
+		
 	  </div>
 
 	  <div class="flex right">
@@ -25,11 +27,26 @@
 			<p>
 			Data: <input type="text" id="data">
 			</p>
-	
+
+			<p>
+				<div class="edukiontzia">
+					<div class="ezker">
+						<button id="atzera" onclick="previousBook()">&lt;&lt;</button>
+						<button id="aurrera" onclick="nextBook()">&gt;&gt;</button>
+						<button id="bilatu" onclick="BilatuISBN(document.querySelector('#isbn').value)">Bilatu</button>
+					</div>
+					<div style="width: 30%; float:right; text-align:left;" >
+						
+							Zenbagarren Liburua: <span id="liburuKopuru"></span>
+						
+					</div>
+				</div>
+			</p>
 	  </div>
 
 	</div>
 
     </body>
+	<script src="app.js"></script>
 </html>
 

@@ -28,3 +28,19 @@
 input {
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edukiontzia {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
